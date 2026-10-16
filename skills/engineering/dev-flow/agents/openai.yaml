@@ -1,0 +1,5 @@
+interface:
+  display_name: "Dev Flow"
+  short_description: "Walk through the dev flow one step at a time"
+policy:
+  allow_implicit_invocation: false

@@ -9,7 +9,7 @@ Write a handoff document summarising the current conversation so a fresh agent c
 
 Include a "suggested skills" section in the document, naming which skills the next agent should call the Skill tool for.
 
-Do not duplicate content already captured in other artifacts (specs, plans, ADRs, issues, commits, diffs). Reference them by path or URL instead.
+Do not duplicate content already captured in other artifacts (specs, plans, DRs, issues, commits, diffs). Reference them by path or URL instead.
 
 Redact any sensitive information, such as API keys, passwords, or personally identifiable information.
 
