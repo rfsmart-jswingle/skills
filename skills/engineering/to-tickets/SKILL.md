@@ -26,6 +26,8 @@ Look for opportunities to prefactor the code to make the implementation easier. 
 
 Break the work into **tracer bullet** tickets.
 
+Before drafting, read the repo's ticket conventions: its ticket format, and its parent or epic format if it has one. Draft in that format from the start, so the user reviews the same text that will be published.
+
 <vertical-slice-rules>
 
 - Each slice cuts a narrow but COMPLETE path through every layer (schema, API, UI, tests): vertical, NOT a horizontal slice of one layer
@@ -63,6 +65,7 @@ Publish the approved tickets to the repo's issue tracker, one ticket per slice, 
 - Use the tracker's native blocking relationship where it has one; otherwise list the blockers in the ticket body.
 - If the source was a spec file, link it from every ticket, so whoever implements or reviews the ticket can find the spec.
 - If the source was an existing issue, link each ticket to it as a child, per the repo's conventions.
+- If the repo's conventions call for a parent issue, such as an epic, and none exists, create it first. Then link each ticket to it and fill in any part of the parent that needs the new ticket identifiers.
 
 Work the **frontier**: any ticket whose blockers are all done. For a purely linear chain that means top to bottom.
 
