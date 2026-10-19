@@ -69,7 +69,7 @@ Publish the approved tickets to the repo's issue tracker, one ticket per slice, 
 
 Work the **frontier**: any ticket whose blockers are all done. For a purely linear chain that means top to bottom.
 
-Do NOT close or modify any parent issue.
+Do NOT close or modify a parent issue that existed before this run.
 
 <issue-template>
 
