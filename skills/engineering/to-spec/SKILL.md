@@ -16,7 +16,7 @@ Check with the user that these seams match their expectations.
 
 3. Write the spec using the template below and save it wherever this repo keeps specs (check `AGENTS.md`/`CLAUDE.md`, or look for an existing spec folder). If the repo has none, use `docs/specs/`. Name the file `YYYY-MM-DD-feature-name.md`.
 
-A spec is a dated record of what was planned. Commit it with the feature's first change, and don't update it after the build: lasting decisions belong in DRs and lasting terms in the glossary.
+A spec is a dated record of what was planned. Open it as its own pull request, on a branch named by the repo's conventions, before the build starts, so the plan is reviewed on its own. Don't update it after the build: lasting decisions belong in DRs and lasting terms in the glossary.
 
 <spec-template>
 
